@@ -1,4 +1,4 @@
-#Design patterns
+# Design patterns
 
 
 Un patrón de diseño define una solución a un problema recurrente, y esta solución se replica de varias formas, dependiendo la tecnología.
