@@ -18,11 +18,13 @@ class Decorator implements Component {
 
 class ComponentDecoratorA extends Decorator {
     public operation():string {
-        return `ComponentDecoratorA${super.operation()}`
+        return `ComponentDecoratorA(${super.operation()})`
     }
 }
 
 const component = new ConcreteComponent();
 const decorator= new ComponentDecoratorA(component);
 
-console.log(decorator.operation());
+console.log(decorator.operation()); //ComponentDecoratorA(ConcreteComponent)
+
+//Decoramos la funcionalidad con mas cosas

@@ -52,5 +52,5 @@ class Character {
 }
 
 
-const warriorBuilder = new CharacterBuilder('Warlord','warrior');
-const warrior = warriorBuilder.setHp(500).setDefense(200).setMana(0).setSpeed(10).build();
+const templarBuilder = new CharacterBuilder('Templar','warrior');
+const templarPlayer = templarBuilder.setHp(500).setDefense(200).setMana(0).setSpeed(10).build();
